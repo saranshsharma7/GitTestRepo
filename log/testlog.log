@@ -1,0 +1,98 @@
+
+
+
+
+
+
+
+
+
+@Given("Open Chrome Browser")
+public void open_chrome_browser() {
+     System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"./Drivers/chromedriver.exe");
+     driver=new ChromeDriver();
+     db=new pageObjectBlaze(driver);
+}
+
+@When("Open Website URL: {string}")
+public void open_website_url(String WebsiteURL) {
+     driver.get(WebsiteURL);
+}
+
+@Then("Website Home page should be Open URL: {string}")
+public void website_home_page_should_be_open_url(String ExpectedWebsiteURL) {
+    
+        if(driver.getCurrentUrl().equals(ExpectedWebsiteURL))
+        {
+            Assert.assertTrue(true);
+        }
+        
+        else {
+            Assert.assertTrue(false);
+        }
+        }
+
+@Then("Login pop-up box will Open")
+public void login_pop_up_box_will_open() {
+     db.clickLoginButton();
+       
+       driver.switchTo().alert();
+       driver.switchTo().alert().dismiss();
+     
+     
+       
+       driver.quit();
+}
+
+
+B.Tech (Information Technology) from Chandigarh Group of Colleges        
+
+fggbhhjkhjkhkjuiyhftncck
+
+
+
+
+
+
+
+
+
+
+
+
+
+package com.testProject.testCases;
+
+import java.io.IOException;
+
+import org.junit.Assert;
+import org.testng.annotations.Test;
+import com.testProject.pageObject.TestCase_001_POM_UserLogin;
+
+
+public class Login_001_TestCases extends BaseSetupClass {
+
+    @Test
+    public void verifyUserLoginWithValidCredentials() throws IOException
+    
+    {
+        
+        TestCase_001_POM_UserLogin vUL= new TestCase_001_POM_UserLogin(driver);
+        
+        vUL.setLoginUsername(username);
+        vUL.setLoginPassword(userPassword);
+        vUL.LoginButton();
+        
+        String ExpextedURl="https://demo.guru99.com/V1/html/Managerhomepage.php";
+        
+        if(driver.getCurrentUrl().equals(ExpextedURl)) {
+            Assert.assertTrue(true);
+        }
+        else {
+            
+                Assert.assertTrue(false);
+        }
+    }
+    
+    
+}

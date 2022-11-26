@@ -1,0 +1,32 @@
+2022-05-14 15:27:58,914 [main] INFO Demo Project - ---------------Test run Start-------------
+2022-05-14 15:27:58,923 [main] INFO Demo Project - opening Browser...chrome
+2022-05-14 15:28:16,133 [main] INFO Demo Project - OpenURL 
+2022-05-14 15:48:31,702 [main] INFO Demo Project - ---------------Test run Start-------------
+2022-05-14 15:48:31,711 [main] INFO Demo Project - opening Browser...chrome
+2022-05-14 15:48:43,527 [main] INFO Demo Project - OpenURL 
+2022-05-14 15:50:35,217 [main] INFO Demo Project - ---------------Test run Start-------------
+2022-05-14 15:50:35,225 [main] INFO Demo Project - opening Browser...chrome
+2022-05-14 15:50:45,672 [main] INFO Demo Project - OpenURL 
+2022-05-14 15:53:40,955 [main] INFO Demo Project - ---------------Test run Start-------------
+2022-05-14 15:53:40,964 [main] INFO Demo Project - opening Browser...chrome
+2022-05-14 15:53:50,629 [main] INFO Demo Project - OpenURL 
+2022-05-14 15:53:50,815 [main] INFO Demo Project - Url open: https://demo.guru99.com/test/login.html
+2022-05-14 15:55:19,536 [main] INFO Demo Project - ---------------Test run Start-------------
+2022-05-14 15:55:19,585 [main] INFO Demo Project - opening Browser...chrome
+2022-05-14 15:55:33,669 [main] INFO Demo Project - OpenURL 
+2022-05-14 15:55:33,930 [main] INFO Demo Project - Url open: https://demo.guru99.com/test/login.html
+2022-05-14 16:01:59,750 [main] INFO Demo Project - ---------------Test run Start-------------
+2022-05-14 16:01:59,776 [main] INFO Demo Project - opening Browser...chrome
+2022-05-14 16:02:11,676 [main] INFO Demo Project - OpenURL 
+2022-05-14 16:02:46,181 [main] INFO Demo Project - ---------------Test run Start-------------
+2022-05-14 16:02:46,189 [main] INFO Demo Project - opening Browser...chrome
+2022-05-14 16:04:30,651 [main] INFO Demo Project - ---------------Test run Start-------------
+2022-05-14 16:04:30,659 [main] INFO Demo Project - opening Browser...chrome
+2022-05-14 16:04:40,826 [main] INFO Demo Project - OpenURL 
+2022-05-14 16:37:38,949 [main] INFO Demo Project - ---------------Test run Start-------------
+2022-05-14 16:37:38,957 [main] INFO Demo Project - opening Browser...chrome
+2022-05-14 16:37:55,433 [main] INFO Demo Project - OpenURL 
+2022-05-14 16:40:13,331 [main] INFO Demo Project - ---------------Test run Start-------------
+2022-05-14 16:40:13,338 [main] INFO Demo Project - opening Browser...chrome
+2022-05-14 16:40:26,168 [main] INFO Demo Project - OpenURL 
+2022-05-14 16:40:26,422 [main] INFO Demo Project - Url open: https://demo.guru99.com/test/login.html

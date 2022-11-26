@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium_FrameWork]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.sframework.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Demo Project(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.sframework.testCases.TC_LoginTest_001">
+        <methods>
+          <include name="openURL"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sframework.testCases.TC_LoginTest_001 -->
+    </classes>
+  </test> <!-- Demo Project(failed) -->
+</suite> <!-- Failed suite [Selenium_FrameWork] -->

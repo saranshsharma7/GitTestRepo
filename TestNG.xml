@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Selenium_FrameWork">
+
+<listeners>
+<listener class-name="com.sframework.utilities.Reporting"></listener>
+</listeners>
+
+	<test name="Demo Project">
+		<parameter name="browser" value="chrome" />
+		 <classes>
+			<class name="com.sframework.testCases.TC_LoginTest_001">
+			
+			<methods>
+			<include name="openURL"/>
+			<include name="userLogin"/>
+			</methods>
+			
+			</class>
+			
+			
+			<!--<class name="com.sframework.testCases.TC_HandleCheckBoxAndRadioButton">
+			<methods>
+			<include name="checkBrokenURL"/>
+			<include name="alertFunctions"/>
+			<include name="drgaAndDrop"/>
+			<include name="hoverMouse"/>
+			<include name="selectDrodown"/>
+			<include name="selectRadioButton"/>
+			<include name="selectCheckBox"/>
+			
+			</methods>
+			</class>-->
+		</classes>
+
+	</test>
+
+</suite>
